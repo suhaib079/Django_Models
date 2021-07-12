@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snacks</title>
+</head>
+<body>
+  <nav>
+    <header style="height: 40px;width: 100%;background-color: royalblue;">
+    <div><a href="{% url 'home' %}">Home</a></div>
+    <div><a href="{% url 'snacks_list' %}">List</a></div>
+  </header>
+  {% block content %}
+
+  {% endblock content %}
+  <main>
+    <img src="https://johannafaith.com/media/493789.jpg" alt="" srcset="">
+  </main>
+  </nav>
+  
+</body>
+</html>
